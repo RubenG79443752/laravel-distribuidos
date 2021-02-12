@@ -13,6 +13,9 @@
     <tr>
         <td width="20%">aqui los enlaces</td>
         <!-- <td>@yield('cuerpo')</td> -->
+        <h1>}hola
+            
+        </h1>
     </tr>
     <tr>
         <td colspan="2">aqui la informacion de contacto</td>
