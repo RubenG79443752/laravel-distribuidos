@@ -8,5 +8,14 @@ Bienvenidos a la vista index
 <!-- si o si el stop de la seccion -->
 <h1>termina la planilla</h1>
 @section('titulo')
-- Persona
+- Persona   
+<!-- SECCION  DE LA PESTAÑA -->
+@stop
+@section('pie')
+    @parent  
+    <!-- parent para traer el mensaje de la herencia -->
+    EDICIONES MARVEL
+@stop
+@section ('styles')
+<link rel="stylesheet" type="text/css" href="{{ asset ('style/style.css') }}">
 @stop
