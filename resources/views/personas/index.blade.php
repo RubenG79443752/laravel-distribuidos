@@ -7,3 +7,6 @@ Bienvenidos a la vista index
 @stop 
 <!-- si o si el stop de la seccion -->
 <h1>termina la planilla</h1>
+@section('titulo')
+- Persona
+@stop
