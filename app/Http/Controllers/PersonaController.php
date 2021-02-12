@@ -12,19 +12,11 @@ class PersonaController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    // public function index()
-    // {
-    //     $personas = Persona::all();
-    //     //dd($personas); //para ver error
-    //     $edad = '50';
-    //     $nombre = 'juan';
-    //     return view('personas.index')->with('datos',['edad'=>$edad , 'nombre'=>$nombre); ///carpeta views 
-    //     // y al ingresar sin / despues vamos a .env y cambiamos APP_DEBUG=true a false
-    //     // $personas = Persona::all();
-    //     // dd($personas); //para ver error
-    //     // return $personas; 
-    // //vamos a routes web y asemos la ruta
-    // }
+    public function index()
+     {
+         return view('personas.index');
+
+    }
 
     /**
      * Show the form for creating a new resource.

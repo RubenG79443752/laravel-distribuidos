@@ -16,6 +16,6 @@ Route::get('/', function () {
 // Route::get('saludar/{nombre}/{edad}', function($nombre, $edad) {
 //     return "hola ".$nombre." tienes ".$edad." años";
 // });
-Route::get('pesona','PersonaController@index')->name('persona.index');
+Route::get('persona','PersonaController@index')->name('persona.index');
 Route::get('persona/nuevo','PersonaController@create')->name('persona.nuevo');
 Route::post('persona/guarda','PersonaController@store')->name('persona.guarda');
